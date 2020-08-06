@@ -1,21 +1,37 @@
+[中文]:https://github.com/LomotHo/Hackintosh-600g1-DM-4670t/blob/master/README-zh.md
+[English]:https://github.com/LomotHo/Hackintosh-600g1-DM-4670t/blob/master/README.md
+
+[English] | [中文]
+
 # Hackintosh-600g1-DM-4670t
 
-CLOVER版本：5120 | MacOS版本: 10.15.6
+ - CLOVER: 5120 | MacOS: 10.15.6
 
-## 配置
+## Hardware list
 
  - CPU: i5 4670t
  - GPU: HD Graphics 4600
- - 无线网卡: 暂无
- - 硬盘: WD sn720
+ - Wireless card: none
+ - Disk: WD sn720
 
-## BIOS设置
+## BIOS configuration
 
  - CFG lock -> unlock
  - DVMT -> 96M
-这两个设置在bios设置界面是没有的需要用setup_var工具，此处暂时先不介绍
+Infact you cant find any configuration about CGF lock or DVMT, you need to use same efi tools such as modified grub with setup_var command.
 
-## 如何给BIOS插入NVME模块
+## How to insert the Nvme module into the BIOS
 
-请参考我的一篇博客：[魔改600g1 DM的bios以支持nvme硬盘](https://zhuanlan.zhihu.com/p/163219746)
+you can view this article from my blog, sorry for no English version.
+[魔改600g1 DM的bios以支持nvme硬盘](https://zhuanlan.zhihu.com/p/163219746)
 
+## Attention
+ - 800g1-DM or 400g1-DM user can also try this EFI
+
+## Unsolved problem
+
+ - No wireless Care（if you bought the right one, it's easy to drive it）
+ - VGA not work
+ - Can't sleep, just enable the option "Prevent computer from sleeping automatically when the display is off" can solve it.
+
+If you can solve any problem above, please open an issue or pull requests, or email me to lomot@qq.com.
