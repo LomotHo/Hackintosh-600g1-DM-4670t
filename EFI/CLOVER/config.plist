@@ -140,34 +140,34 @@
 		<key>#AddProperties</key>
 		<array>
 			<dict>
-				<key>Comment</key>
-				<string>hda-gfx=onboard-1 for HDMI audio</string>
-				<key>Value</key>
-				<data>b25ib2FyZC0xAA==</data>
-				<key>Key</key>
-				<string>hda-gfx</string>
 				<key>Device</key>
 				<string>IntelGFX</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>hda-gfx=onboard-1 for HDMI audio</string>
 				<key>Value</key>
 				<data>b25ib2FyZC0xAA==</data>
+				<key>Comment</key>
+				<string>hda-gfx=onboard-1 for HDMI audio</string>
 				<key>Key</key>
 				<string>hda-gfx</string>
-				<key>Device</key>
-				<string>HDA</string>
 			</dict>
 			<dict>
-				<key>Comment</key>
-				<string>layout-id=3</string>
-				<key>Value</key>
-				<data>AwAAAA==</data>
-				<key>Key</key>
-				<string>layout-id</string>
 				<key>Device</key>
 				<string>HDA</string>
+				<key>Value</key>
+				<data>b25ib2FyZC0xAA==</data>
+				<key>Comment</key>
+				<string>hda-gfx=onboard-1 for HDMI audio</string>
+				<key>Key</key>
+				<string>hda-gfx</string>
+			</dict>
+			<dict>
+				<key>Device</key>
+				<string>HDA</string>
+				<key>Value</key>
+				<data>AwAAAA==</data>
+				<key>Comment</key>
+				<string>layout-id=3</string>
+				<key>Key</key>
+				<string>layout-id</string>
 			</dict>
 			<dict>
 				<key>Key</key>
@@ -300,13 +300,13 @@
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02426403GUG2Y71M</string>
+		<string>C02420207QXG2Y7CB</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>ProductName</key>
 		<string>iMac15,1</string>
 		<key>SmUUID</key>
-		<string>657D355E-A206-4E81-8C3D-01752267BB28</string>
+		<string>B0F04C00-D852-4DE8-80BB-A99E3E8CF014</string>
 		<key>Mobile</key>
 		<false/>
 		<key>BoardType</key>
@@ -314,7 +314,7 @@
 		<key>EfiVersion</key>
 		<string>234.0.0.0.0</string>
 		<key>SerialNumber</key>
-		<string>C02MXNY9FY10</string>
+		<string>C02MQXYDFY10</string>
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
 		<key>BiosReleaseDate</key>
