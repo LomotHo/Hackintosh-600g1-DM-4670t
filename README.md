@@ -11,7 +11,7 @@
 
  - CPU: i5 4670t
  - GPU: HD Graphics 4600
- - Wireless card: none
+ - Wireless card: bcm943224pciebt2
  - Disk: WD sn720
 
 ## BIOS configuration
@@ -30,7 +30,6 @@ you can view this article from my blog, sorry for no English version.
 
 ## Unsolved problem
 
- - No wireless Care（if you bought the right one, it's easy to drive it）
  - VGA not work
  - Can't sleep, just enable the option "Prevent computer from sleeping automatically when the display is off" can solve it.
 
