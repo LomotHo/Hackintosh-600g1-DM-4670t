@@ -16,14 +16,10 @@
 
 ## BIOS configuration
 
+ - Update your BIOS to the latest version, >=0.33
  - CFG lock -> unlock
  - DVMT -> 96M
 Infact you cant find any configuration about CGF lock or DVMT, you need to use same efi tools such as modified grub with setup_var command.
-
-## How to insert the Nvme module into the BIOS
-
-you can view this article from my blog, sorry for no English version.
-[魔改600g1 DM的bios以支持nvme硬盘](https://zhuanlan.zhihu.com/p/163219746)
 
 ## Attention
  - 800g1-DM or 400g1-DM user can also try this EFI
