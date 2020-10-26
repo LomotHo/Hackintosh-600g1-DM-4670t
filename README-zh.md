@@ -20,10 +20,9 @@
  - DVMT -> 96M
 这两个设置在bios设置界面是没有的需要用setup_var工具，此处暂时先不介绍
 
-## ~~如何给BIOS插入NVME模块~~
+## 如何给BIOS插入NVME模块
 
-最新版bios已经支持从NVME硬盘启动，更新到最新版bios即可
-~~请参考我的一篇博客：[魔改600g1 DM的bios以支持nvme硬盘](https://zhuanlan.zhihu.com/p/163219746)~~
+请参考我的一篇博客：[魔改600g1 DM的bios以支持nvme硬盘](https://zhuanlan.zhihu.com/p/163219746)
 
 ## 注意事项
  - 理论上也支持 800g1-DM 与 400g1-DM
