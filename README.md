@@ -1,36 +1,37 @@
-[中文]:https://github.com/LomotHo/Hackintosh-600g1-DM-4670t/blob/master/README-zh.md
-[English]:https://github.com/LomotHo/Hackintosh-600g1-DM-4670t/blob/master/README.md
+[中文]:https://github.com/LomotHo/Hackintosh-600g1-DM-4670t/blob/master/README.md
+[English]:https://github.com/LomotHo/Hackintosh-600g1-DM-4670t/blob/master/README-en.md
 
 [English] | [中文]
 
 # Hackintosh-600g1-DM-4670t
 
- - CLOVER: 5120 | MacOS: 10.15.6
+ - CLOVER版本：5120 | MacOS版本: 10.15.6
 
-## Hardware list
+## 配置
 
  - CPU: i5 4670t
  - GPU: HD Graphics 4600
- - Wireless card: bcm943224pciebt2
- - Disk: WD sn720
+ - 无线网卡: bcm943224pciebt2
+ - 硬盘: WD sn720
 
-## BIOS configuration
+## BIOS设置
 
  - CFG lock -> unlock
  - DVMT -> 96M
-Infact you cant find any configuration about CGF lock or DVMT, you need to use same efi tools such as modified grub with setup_var command.
+这两个设置在bios设置界面是没有的需要用setup_var工具，
+可以参考我的博客: [使用grub setup_var给600g1DM解锁CFG LOCK, 修改DVMT](https://zhuanlan.zhihu.com/p/302927328)
 
-## How to insert the Nvme module into the BIOS
+## 如何给BIOS插入NVME模块
 
-you can view this article from my blog, sorry for no English version.
-[魔改600g1 DM的bios以支持nvme硬盘](https://zhuanlan.zhihu.com/p/163219746)
+请参考我的博客：[魔改600g1 DM的bios以支持nvme硬盘](https://zhuanlan.zhihu.com/p/163219746)
 
-## Attention
- - 800g1-DM or 400g1-DM user can also try this EFI
+## 注意事项
+ - 理论上也支持 800g1-DM 与 400g1-DM
+ - 如果使用4代魔改的笔记本CPU如i7 4980HQ，除了需要自行在BIOS中添加微码外，本配置中关于显卡的设置也需要修改
 
-## Unsolved problem
+## 目前已知的问题
 
- - VGA not work
- - Can't sleep, just enable the option "Prevent computer from sleeping automatically when the display is off" can solve it.
+ - VGA不能显示
+ - 不能休眠，需要自行关闭休眠
 
-If you can solve any problem above, please open an issue or pull requests, or email me to lomot@qq.com.
+如果你有上面问题的解决方案，欢迎给我提issue或者pull request，或者直接通过邮箱lomot@qq.com联系我
