@@ -16,6 +16,7 @@
 
 ## BIOS设置
 
+ - Update your BIOS to the latest version, >=0.33
  - CFG lock -> unlock
  - DVMT -> 96M
 这两个设置在bios设置界面是没有的需要用setup_var工具，
